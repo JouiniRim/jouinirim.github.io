@@ -32,7 +32,8 @@ p {
 
 nav {
   margin-top: 20px;
-  text-align: left; /* Liens alignés à gauche */
+  text-align: center ; /* Liens alignés à gauche */
+  text-decoration: underline;
 }
 
 nav a {
