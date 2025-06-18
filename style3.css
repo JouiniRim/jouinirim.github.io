@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Georgia", serif;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 700px;
+  padding: 40px 20px;
+  line-height: 1.6;
+  text-align: justify; /* 👉 rend le texte justifié */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  text-align: left; /* Titre aligné à gauche */
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  text-align: justify; /* Paragraphe justifié */
+}
+
+nav {
+  margin-top: 20px;
+  text-align: left; /* Liens alignés à gauche */
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
