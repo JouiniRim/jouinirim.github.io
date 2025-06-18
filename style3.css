@@ -18,9 +18,10 @@ main {
 }
 
 h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.2em;
-  text-align: left; /* Titre aligné à gauche */
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 2.2em;
 }
 
 p {
