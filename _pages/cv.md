@@ -1,21 +1,31 @@
 ---
 layout: archive
-title: "CV"
+title: "About me"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+
 ---
+
+
+    
+	
 
 {% include base_path %}
 
+
+
+
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2020 : <b> Ph.D. in Computer Science</b>. ENSI – National School of Computer Science, University of Manouba UMA, Tunisia. Advisors : Professor. Leila Azouz Saidane; Title : “Optimisation des services e-sant´e bas´es sur les r´eseaux de capteurs dans des espaces”.
+* 2013 : <b> Engineering degree in Computer Science</b>, ENSI – National School of Computer Science, University of Manouba UMA, Tunisia.
+* 2010 : <b> Master’s Degree in Computer Science, specialized in Information Systems</b>, ESTI - Higher School of Information Technologies, which became ENICarthage - National School of Engineers of Carthage, in September 2011, Tunisia.
+* 2008 : <b> Higher Technician Diploma in Computer Science, specialized in Computer Networks</b>, ISET Rades (Higher Institute of Technological Studies, Rades), Tunisia.
 
-Work experience
+Professional experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * GitHub University

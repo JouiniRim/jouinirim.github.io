@@ -6,12 +6,35 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+ <!-- <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div> -->
+  <div class="wordwrap" style="text-align: justify;">All my publications are being listed here. You can also find them in the following public repositories: <a href="{{site.author.googlescholar}}">DBLP</a> and <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div> 
 {% endif %}
+<h2> Journal Articles </h2>
+<HR>
+<div class="wordwrap" style="text-align: justify;">Rim Jouini, Chiraz Houaidia, and Leila Azouz Saidane, <b>Hidden Markov Model for early prediction of the elderly’s dependency evolution in ambient assisted living</b>. <i>Annals of Telecommunications, Springer, 2023.</i> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=kzSy3zQAAAAJ&sortby=pubdate&citation_for_view=kzSy3zQAAAAJ:zYLM7Y9cAGgC">Download Paper</a>.</div>
+<br>
+<div class="wordwrap">Rim Jouini, Karima Maalaoui and Leila Azouz Saidane, <b>Designing Smart Homes for Dependent Persons Assistance, Journal of Machine to Machine Communications</b>,<i> Journal production for RIVER PUBLISHER, 2014.</i> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=kzSy3zQAAAAJ&sortby=pubdate&citation_for_view=kzSy3zQAAAAJ:9yKSN-GCB0IC ">Download Paper</a>.</div>
 
-{% include base_path %}
+<h2> Conference Papers </h2>
+<HR>
+<div class="wordwrap" style="text-align: justify;">Rim Jouini, Chiraz Houaidia and Leila Azzouz Saidane, <b>Predictive model for elderly dependency assessment in ambient assisted living </b>, <i>the 9th IFIP/IEEE International Conferenceon Performance Evaluation and Modeling in Wired and Wireless Networks (PEMWN 2020)</i>, December 2020, Berlin, Germany (Due to Covid-19, a fully online conference) Proceedings of the 9th IFIP/IEEE International Conference on Performance Evaluation and Modeling in Wired and Wireless Networks (PEMWN 2020), December 1-3, 2020. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=kzSy3zQAAAAJ&sortby=pubdate&citation_for_view=kzSy3zQAAAAJ:IjCSPb-OGe4C">Download Paper</a>.</div>
+<br>
+<div class="wordwrap" style="text-align: justify;">Rim Jouini, Tayeb Lemlouma, Karima Maalaoui and Leila Azzouz Saidane, <b>Employing Grey Model forecasting GM(1,1) to historical medical sensor data towards system preventive in smart home e-health for elderly person</b>,<i> the 12th International Wireless Communications & MobileComputing Conference (IWCMC 2016)</i>, Septembre 2016, Paphos, Chypre Proceedings of the 12th International Wireless Communications & Mobile Computing Conference (IWCMC 2016), Paphos, Cyprus, September 5-9, 2016. <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=kzSy3zQAAAAJ&sortby=pubdate&citation_for_view=kzSy3zQAAAAJ:IjCSPb-OGe4C">Download Paper</a></div>
+
+<h2> Distinction </h2>
+<HR>
+<div class="wordwrap" style="text-align: justify;"><b>Best Student Paper</b>, the 9th IFIP/IEEE International Conference on Performance Evaluation and Modeling in Wired and Wireless Networks (PEMWN 2020).</div>
+
+<h2> Livre </h2>
+<HR>
+<div class="wordwrap" style="text-align: justify;">Rim Jouini, Mariem Jouini, <b>Gestion Electronique des Documents GED</b>, Editions Universitaires Europ´eennes, Aôut 2014.</div>
+
+
+<!--
+{% include base_path %}-->
 
 <!-- New style rendering if publication categories are defined -->
+<!--
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -31,6 +54,5 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
+-->
 
